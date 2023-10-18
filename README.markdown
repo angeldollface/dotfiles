@@ -11,3 +11,6 @@ This repository contains the dotfiles for the configurations for different softw
 - Picom
 - Nitrogen
 - Polybar
+- BSPWM
+- Light DM
+- `lightdm-gtk-greeter`
