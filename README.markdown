@@ -16,3 +16,4 @@ This repository contains the dotfiles for the configurations for different softw
 - `lightdm-gtk-greeter`
 - `base-devel`
 - `rofi`
+- `alacritty`
