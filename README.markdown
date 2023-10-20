@@ -7,7 +7,6 @@ This repository contains the dotfiles for the configurations for different softw
 
 ## THE SOFTWARE
 
-- `openbox`
 - `picom`
 - `nitrogen`
 - `polybar`
@@ -18,3 +17,5 @@ This repository contains the dotfiles for the configurations for different softw
 - `rofi`
 - `alacritty`
 - `sxhkd`
+- `firefox`
+- `xorg`
