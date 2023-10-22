@@ -2,8 +2,14 @@
 
 ## ABOUT :books:
 
-I am trying to craft a unique, riced desktop environment for myself on Arch Linux.
+I am trying to craft a unique, riced desktop environment for myself on Arch-based Linux.
 This repository contains the dotfiles for the configurations for different software to emulate a minimal desktop environment.
+
+## SCREENSHOT
+
+<p align="center">
+ <img src="screenshots/screenie.png"/>
+</p>
 
 ## THE SOFTWARE
 
