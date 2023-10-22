@@ -28,3 +28,12 @@ This repository contains the dotfiles for the configurations for different softw
 - Mod + O: Take a screenshot.
 - Mod + Shift + W: Quit an application.
 - Mod + Enter: Open Alacritty.
+
+## INSTALLATION
+
+- 1.) Clone this repository using Git to your own system.
+- 2.) Rename the `dotfiles` folder to `.config`.
+- 3.) Make a folder called `pics` in your `$HOME` directory.
+- 4.) Move one of the wallpapers from this repository's `wallpaper` folder to the `pics` folder.
+- 5.) Move the file called `.xprofile` to your `$HOME` directory.
+- 6.) Start Nitrogen, add the `pics` directory as a source and set the wallpaper.
