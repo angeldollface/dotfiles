@@ -2,8 +2,7 @@
 
 ## ABOUT :books:
 
-I am trying to craft a unique, riced desktop environment for myself on Arch-based Linux.
-This repository contains the dotfiles for the configurations for different software to emulate a minimal desktop environment.
+This repository contains the dotfiles for the configurations for different software to emulate a heavily-modified minimal desktop environment on Arch Linux.
 
 ## SCREENSHOT
 
@@ -46,5 +45,6 @@ This repository contains the dotfiles for the configurations for different softw
 - 2.) Rename the `dotfiles` folder to `.config`.
 - 3.) Make a folder called `pics` in your `$HOME` directory.
 - 4.) Move one of the wallpapers from this repository's `wallpaper` folder to the `pics` folder.
+- 5.) Make sure all files ending in `.sh` are executable. (This is most important!)
 - 5.) Move the file called `.xprofile` to your `$HOME` directory.
 - 6.) Start Nitrogen, add the `pics` directory as a source and set the wallpaper.
