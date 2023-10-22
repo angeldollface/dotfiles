@@ -36,6 +36,8 @@ This repository contains the dotfiles for the configurations for different softw
 - Mod + O: Take a screenshot.
 - Mod + Shift + W: Quit an application.
 - Mod + Enter: Open Alacritty.
+- Mod + L: Logout.
+- Mod + H: Hibernate.
 
 ## INSTALLATION
 
