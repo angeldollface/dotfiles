@@ -26,13 +26,8 @@ This repository contains the dotfiles for the configurations for different softw
 - `firefox`
 - `xorg`
 - `flameshot`
-- `python-gobject`
-- `python-ewmh`
-- `python`
-- `python-pip`
-- `python-xdg`
+- `neofetch`
 - `thunar`
-- `xorg-prop`
 
 ## KEY COMBINATIONS
 
