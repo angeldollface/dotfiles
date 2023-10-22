@@ -32,6 +32,7 @@ This repository contains the dotfiles for the configurations for different softw
 - `python-pip`
 - `python-xdg`
 - `thunar`
+- `xorg-prop`
 
 ## KEY COMBINATIONS
 
