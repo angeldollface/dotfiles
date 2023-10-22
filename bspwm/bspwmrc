@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-setxkbmap -layout mac
+setxkbmap -layout at
 
 $HOME/.config/polybar/launch.sh
 
