@@ -28,6 +28,7 @@ This repository contains the dotfiles for the configurations for different softw
 - `flameshot`
 - `neofetch`
 - `thunar`
+- `blueberry`
 
 ## KEY COMBINATIONS
 
