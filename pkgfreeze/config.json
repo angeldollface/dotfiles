@@ -1,0 +1,7 @@
+{
+  "sudo_provider": "sudo",
+  "manager": "pacman",
+  "list_name": "PKGFILE",
+  "install_command": "-S",
+  "no_confirm": "--noconfirm"
+}
