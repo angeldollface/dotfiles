@@ -1,4 +1,4 @@
-# DOTFILES :nail_care: :ribbon: :dolls:
+# DOTFILES :nail_care: :ribbon: :heart:
 
 ## ABOUT :books:
 
@@ -67,5 +67,9 @@ To "install" either of these setups on your Linux installation install the softw
 - 5.) Make sure that the script called `autostart` in the `hypr` folder is executable.
 - 6.) Edit the file called `hyprpaper.conf` in the `hypr` folder to include the path to one of the wallpapers provided.
 - 7.) Press Mod + L to logout.
-- 8.) Log back in if yoiu have a display manager running.
+- 8.) Log back in if you have a display manager running.
 
+## NOTE :scroll:
+
+- *Dotfiles :nail_care: :ribbon: :heart:* by Alexander Abraham :black_heart: a.k.a. *"Angel Dollface" :dolls: :ribbon:*
+- Licensed under the MIT license.
