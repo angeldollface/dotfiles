@@ -1,0 +1,45 @@
+window#waybar{
+  background-color: transparent;
+}
+#clock,#pulseaudio,#network,#cpu,#memory, #bluetooth {
+  color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px 10px 0px 0px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+#taskbar {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  margin: 10px 0px 0px 10px;
+}
+
+#taskbar button {
+  padding: 10px;
+}
+
+#taskbar button.active {
+  border-radius: 15px;
+  background-color: #FFFFFF;
+}
+
+#taskbar button.minimized {
+  border-radius: 15px;
+  background-color: #FFFFFF;
+}
+
+#workspaces {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  margin: 10px 0px 0px 0px;
+}
+
+#workspaces button {
+  padding: 10px;
+  font-family: monospace;
+  font-weight: bold;
+  color: #000000;
+}
