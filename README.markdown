@@ -1,10 +1,10 @@
-# DOTFILES :nail_care: :ribbons: :dolls:
+# DOTFILES :nail_care: :ribbon: :dolls:
 
 ## ABOUT :books:
 
 This repository contains the dotfiles for the configurations for different software to emulate a heavily-modified minimal desktop environment on Arch Linux.
 
-## SCREENSHOT :camera:
+## SCREENSHOTS :camera:
 
 ### BSPWM
 
@@ -18,9 +18,9 @@ This repository contains the dotfiles for the configurations for different softw
  <img src="screenshots/hyprland-screenie.png"/>
 </p>
 
-## THE SOFTWARE
+## THE SOFTWARE :package:
 
-A detailed list of software used for these rices can be found in the `pkgfreeze/PKGFILE` file. All the software can be installed with either pacman or [PKG Freeze](https://github.com/angeldollface/pkgfreeze).
+A detailed list of software used for these rices can be found in the `pkgfreeze/PKGFILE` file. All the software can be installed with either your system's package manager or [PKG Freeze](https://github.com/angeldollface/pkgfreeze).
 
 ## KEY COMBINATIONS :keyboard:
 
@@ -46,7 +46,7 @@ A detailed list of software used for these rices can be found in the `pkgfreeze/
 
 ## INSTALLATION :inbox_tray:
 
-To "install" either of these setups on your Linux installation, install the software list in the file `pkgfreeze/PKGFILE` through your system's package manager.
+To "install" either of these setups on your Linux installation install the software list in the file `pkgfreeze/PKGFILE` through your system's package manager.
 
 ### BSPWM
 
