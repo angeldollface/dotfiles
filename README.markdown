@@ -37,7 +37,7 @@ A detailed list of software used for these rices can be found in the `pkgfreeze/
 ### ON HYPRLAND
 
 - Mod + Space: Open Rofi.
-- Mod + P: Open Rofi in shell mode for system reboot or shutdown.
+- Mod + I: Open Rofi in shell mode for system reboot or shutdown.
 - Mod + O: Take a screenshot.
 - Mod + C: Quit an application.
 - Mod + Enter: Open Alacritty.
