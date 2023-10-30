@@ -1,0 +1,6 @@
+window:
+  opacity: 0.5
+colors:
+  primary:
+    background: '#000000'
+    foreground: '#FFFFFF'

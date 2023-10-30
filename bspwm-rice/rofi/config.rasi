@@ -3,4 +3,4 @@ configuration {
  font: "hack 10";
  combi-modi: "window,drun";
 }
-@theme "rounded-pink-dark.rasi"
+@theme "colors.rasi"
