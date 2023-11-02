@@ -18,6 +18,12 @@ This repository contains the dotfiles for the configurations for different softw
  <img src="screenshots/hyprland-screenie.png"/>
 </p>
 
+### RED DEMON
+
+<p align="center">
+ <img src="screenshots/red-demon.png"/>
+</p>
+
 ## THE SOFTWARE :package:
 
 A detailed list of software used for these rices can be found in the `shared/pkgfreeze/PKGFILE` file. All the software can be installed with either your system's package manager or [PKG Freeze](https://github.com/angeldollface/pkgfreeze).
@@ -33,6 +39,7 @@ A detailed list of software used for these rices can be found in the `shared/pkg
 - Mod + Enter: Open Alacritty.
 - Mod + L: Logout.
 - Mod + H: Hibernate.
+- Mod + 1-9: Switch workspace.
 
 ### ON HYPRLAND
 
@@ -43,6 +50,18 @@ A detailed list of software used for these rices can be found in the `shared/pkg
 - Mod + Enter: Open Alacritty.
 - Mod + L: Logout.
 - Mod + H: Hibernate.
+- Mod + Shift + 1-9: Switch workspace.
+
+### THE RED DEMON
+
+- Mod + Space: Open Rofi.
+- Mod + P: Open Rofi in shell mode for system reboot or shutdown.
+- Mod + O: Take a screenshot.
+- Mod + Shift + W: Quit an application.
+- Mod + Enter: Open Alacritty.
+- Mod + L: Logout.
+- Mod + H: Hibernate.
+- Mod + 1-9: Switch workspace.
 
 ## INSTALLATION :inbox_tray:
 
@@ -56,7 +75,7 @@ To "install" either of these setups on your Linux installation install the softw
 - 5.) Move one of the wallpapers from this repository's `shared/wallpaper` folder to the `pics` folder.
 - 6.) Make sure all files in the `.config ` folder ending in `.sh` are executable. (This is most important!)
 - 7.) Move the file called `.xprofile` to your `$HOME` directory.
-- 8.) Start Nitrogen, add the `pics` directory as a source and set the wallpaper.
+- 8.) Start Nitrogen, add the `pics` directory as a source and set the wallpaper (`shared/wallpapers/4.jpg`).
 
 ### HYPRLAND
 
@@ -66,9 +85,19 @@ To "install" either of these setups on your Linux installation install the softw
 - 4.) Make a folder called `pics` in your `$HOME` directory.
 - 5.) Move one of the wallpapers from this repository's `shared/wallpaper` folder to the `pics` folder.
 - 6.) Make sure that the script called `autostart` in the `hypr` folder is executable.
-- 7.) Edit the file called `hyprpaper.conf` in the `hypr` folder to include the path to one of the wallpapers provided.
+- 7.) Edit the file called `hyprpaper.conf` in the `hypr` folder to include the path to one of the wallpapers provided (`shared/wallpapers/5.jpg`).
 - 8.) Press Mod + L to logout.
 - 9.) Log back in if you have a display manager running.
+
+### RED DEMON
+
+- 1.) Clone this repository using Git to your own system.
+- 2.) Move the `red-demon` folder to your `$HOME` folder. - 3.) Rename the `red-demon` folder to `.config`.
+- 4.) Make a folder called `pics` in your `$HOME` directory.
+- 5.) Move one of the wallpapers from this repository's `shared/wallpaper` folder to the `pics` folder.
+- 6.) Make sure all files in the `.config ` folder ending in `.sh` are executable. (This is most important!)
+- 7.) Move the file called `.xprofile` to your `$HOME` directory.
+- 8.) Start Nitrogen, add the `pics` directory as a source and set the wallpaper (`shared/wallpapers/6.jpg`).
 
 ## NOTE :scroll:
 
