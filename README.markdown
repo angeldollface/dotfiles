@@ -70,7 +70,8 @@ To "install" either of these setups on your Linux installation install the softw
 ### BSPWM
 
 - 1.) Clone this repository using Git to your own system.
-- 2.) Move the `bspwm-rice` folder to your `$HOME` folder. - 3.) Rename the `bspwm-rice` folder to `.config`.
+- 2.) Move the `bspwm-rice` folder to your `$HOME` folder.
+- 3.) Rename the `bspwm-rice` folder to `.config`.
 - 4.) Make a folder called `pics` in your `$HOME` directory.
 - 5.) Move one of the wallpapers from this repository's `shared/wallpaper` folder to the `pics` folder.
 - 6.) Make sure all files in the `.config ` folder ending in `.sh` are executable. (This is most important!)
