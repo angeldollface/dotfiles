@@ -6,13 +6,13 @@ This repository contains the dotfiles for the configurations for different softw
 
 ## SCREENSHOTS :camera:
 
-### BSPWM
+### KAWAII BLISS
 
 <p align="center">
  <img src="screenshots/bspwm-screenie.png"/>
 </p>
 
-### HYPRLAND
+### WHITE WAYLAND
 
 <p align="center">
  <img src="screenshots/hyprland-screenie.png"/>
@@ -26,11 +26,31 @@ This repository contains the dotfiles for the configurations for different softw
 
 ## THE SOFTWARE :package:
 
-A detailed list of software used for these rices can be found in the `shared/pkgfreeze/PKGFILE` file. All the software can be installed with either your system's package manager or [PKG Freeze](https://github.com/angeldollface/pkgfreeze).
+### KAWAII BLISS
+
+- Picom
+- BSPWM
+- SXHKD
+- Nitrogen
+- Polybar
+
+### WHITE WAYLAND
+
+- Hyprland (Git)
+- Waybar
+- Hyprpaper
+
+### RED DEMON
+
+- Picom
+- BSPWM
+- SXHKD
+- Nitrogen
+- Polybar
 
 ## KEY COMBINATIONS :keyboard:
 
-### ON BSPWM
+### KAWAII BLISS
 
 - Mod + Space: Open Rofi.
 - Mod + P: Open Rofi in shell mode for system reboot or shutdown.
@@ -41,7 +61,7 @@ A detailed list of software used for these rices can be found in the `shared/pkg
 - Mod + H: Hibernate.
 - Mod + 1-9: Switch workspace.
 
-### ON HYPRLAND
+### WHITE WAYLAND
 
 - Mod + Space: Open Rofi.
 - Mod + I: Open Rofi in shell mode for system reboot or shutdown.
@@ -67,38 +87,36 @@ A detailed list of software used for these rices can be found in the `shared/pkg
 
 To "install" either of these setups on your Linux installation install the software list in the file `shared/pkgfreeze/PKGFILE` through your system's package manager.
 
-### BSPWM
+### KAWAII BLISS
 
-- 1.) Clone this repository using Git to your own system.
-- 2.) Move the `bspwm-rice` folder to your `$HOME` folder.
-- 3.) Rename the `bspwm-rice` folder to `.config`.
-- 4.) Make a folder called `pics` in your `$HOME` directory.
-- 5.) Move one of the wallpapers from this repository's `shared/wallpaper` folder to the `pics` folder.
-- 6.) Make sure all files in the `.config ` folder ending in `.sh` are executable. (This is most important!)
-- 7.) Move the file called `.xprofile` to your `$HOME` directory.
-- 8.) Start Nitrogen, add the `pics` directory as a source and set the wallpaper (`shared/wallpapers/4.jpg`).
+- 1.) Clone this repository using Git down to your own system.
+- 2.) Move the `kawaii-bliss` folder to your `$HOME` folder.
+- 3.) Rename the `kawaii-bliss` folder to `.config`.
+- 4.) Move the `wallpapers` folder from this repository's `shared/wallpapers` folder to the your `$HOME` folder.
+- 5.) Make sure all files in the `.config ` folder ending in `.sh` are executable. (This is most important!)
+- 6.) Move the file `.xprofile` from the `kawaii-bliss` folder to your `$HOME` directory.
+- 7.) Start Nitrogen and add the `$HOME/wallpapers` directory as a source and set the wallpaper (`$HOME/wallpapers/4.jpg`).
 
-### HYPRLAND
+### WHITE WAYLAND
 
-- 1.) Clone this repository using Git to your own system.
-- 2.) Move the `hyprland-rice` folder to your `$HOME` folder. 
-- 3.) Rename the `hyprland-rice` folder to `.config`.
-- 4.) Make a folder called `pics` in your `$HOME` directory.
-- 5.) Move one of the wallpapers from this repository's `shared/wallpaper` folder to the `pics` folder.
+- 1.) Clone this repository using Git down to your own system.
+- 2.) Move the `white-wayland` folder to your `$HOME` folder. 
+- 3.) Rename the `white-wayland` folder to `.config`.
+- 4.) Move the `wallpapers` folder from this repository's `shared/wallpapers` folder to the your `$HOME` folder.
 - 6.) Make sure that the script called `autostart` in the `hypr` folder is executable.
-- 7.) Edit the file called `hyprpaper.conf` in the `hypr` folder to include the path to one of the wallpapers provided (`shared/wallpapers/5.jpg`).
+- 7.) Edit the file called `hyprpaper.conf` in the `hypr` folder to include the path to one of the wallpapers provided (`$HOME/wallpapers/5.jpg`).
 - 8.) Press Mod + L to logout.
-- 9.) Log back in if you have a display manager running.
+- 9.) Log back in if you have a display manager (SDDM or Light DM) running.
 
 ### RED DEMON
 
-- 1.) Clone this repository using Git to your own system.
-- 2.) Move the `red-demon` folder to your `$HOME` folder. - 3.) Rename the `red-demon` folder to `.config`.
-- 4.) Make a folder called `pics` in your `$HOME` directory.
-- 5.) Move one of the wallpapers from this repository's `shared/wallpaper` folder to the `pics` folder.
-- 6.) Make sure all files in the `.config ` folder ending in `.sh` are executable. (This is most important!)
-- 7.) Move the file called `.xprofile` to your `$HOME` directory.
-- 8.) Start Nitrogen, add the `pics` directory as a source and set the wallpaper (`shared/wallpapers/6.jpg`).
+- 1.) Clone this repository using Git down to your own system.
+- 2.) Move the `red-demon` folder to your `$HOME` folder.
+- 3.) Rename the `red-demon` folder to `.config`.
+- 4.) Move the `wallpapers` folder from this repository's `shared/wallpapers` folder to the your `$HOME` folder.
+- 5.) Make sure all files in the `.config ` folder ending in `.sh` are executable. (This is most important!)
+- 6.) Move the file `.xprofile` from the `red-demon` folder to your `$HOME` directory.
+- 7.) Start Nitrogen and add the `$HOME/wallpapers` directory as a source and set the wallpaper (`$HOME/wallpapers/6.jpg`).
 
 ## NOTE :scroll:
 
