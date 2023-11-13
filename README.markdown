@@ -39,18 +39,21 @@ This repository contains the dotfiles for the configurations for different softw
 - SXHKD
 - Nitrogen
 - Polybar
+- Git
 
 ### WHITE WAYLAND
 
 - Hyprland (Git)
 - Waybar
 - Hyprpaper
+- Git
 
 ### DARK WAYLAND
 
 - Hyprland (Git)
 - Waybar
 - Hyprpaper
+- Git
 
 ### RED DEMON
 
@@ -59,6 +62,7 @@ This repository contains the dotfiles for the configurations for different softw
 - SXHKD
 - Nitrogen
 - Polybar
+- Git
 
 ## KEY COMBINATIONS :keyboard:
 
@@ -108,7 +112,7 @@ This repository contains the dotfiles for the configurations for different softw
 
 ## INSTALLATION :inbox_tray:
 
-To "install" either of these setups on your Linux installation, install the software list for the setup of your choice with the package manager(s) your system provides. Only after this has been completed, can you follow the steps provided below for the setup you would like.
+To "install" any of these setups on your Linux installation, install the software list for the setup of your choice with the package manager(s) your system provides. Only after this has been completed, can you follow the steps provided below for the setup you would like.
 
 ### KAWAII BLISS
 
