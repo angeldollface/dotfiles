@@ -108,7 +108,7 @@ This repository contains the dotfiles for the configurations for different softw
 
 ## INSTALLATION :inbox_tray:
 
-To "install" either of these setups on your Linux installation install the software list in the file `shared/pkgfreeze/PKGFILE` through your system's package manager.
+To "install" either of these setups on your Linux installation, install the software list for the setup of your choice with the package manager(s) your system provides. Only after this has been completed, can you follow the steps provided below for the setup you would like.
 
 ### KAWAII BLISS
 
