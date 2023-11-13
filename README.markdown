@@ -9,13 +9,19 @@ This repository contains the dotfiles for the configurations for different softw
 ### KAWAII BLISS
 
 <p align="center">
- <img src="screenshots/bspwm-screenie.png"/>
+ <img src="screenshots/kawaii-bliss.png"/>
 </p>
 
 ### WHITE WAYLAND
 
 <p align="center">
- <img src="screenshots/hyprland-screenie.png"/>
+ <img src="screenshots/white-wayland.png"/>
+</p>
+
+### DARK WAYLAND
+
+<p align="center">
+ <img src="screenshots/dark-wayland.png"/>
 </p>
 
 ### RED DEMON
@@ -35,6 +41,12 @@ This repository contains the dotfiles for the configurations for different softw
 - Polybar
 
 ### WHITE WAYLAND
+
+- Hyprland (Git)
+- Waybar
+- Hyprpaper
+
+### DARK WAYLAND
 
 - Hyprland (Git)
 - Waybar
@@ -62,6 +74,17 @@ This repository contains the dotfiles for the configurations for different softw
 - Mod + 1-9: Switch workspace.
 
 ### WHITE WAYLAND
+
+- Mod + Space: Open Rofi.
+- Mod + I: Open Rofi in shell mode for system reboot or shutdown.
+- Mod + O: Take a screenshot.
+- Mod + C: Quit an application.
+- Mod + Enter: Open Alacritty.
+- Mod + L: Logout.
+- Mod + H: Hibernate.
+- Mod + Shift + 1-9: Switch workspace.
+
+### DARK WAYLAND
 
 - Mod + Space: Open Rofi.
 - Mod + I: Open Rofi in shell mode for system reboot or shutdown.
@@ -105,6 +128,17 @@ To "install" either of these setups on your Linux installation install the softw
 - 4.) Move the `wallpapers` folder from this repository's `shared/wallpapers` folder to the your `$HOME` folder.
 - 6.) Make sure that the script called `autostart` in the `hypr` folder is executable.
 - 7.) Edit the file called `hyprpaper.conf` in the `hypr` folder to include the path to one of the wallpapers provided (`$HOME/wallpapers/5.jpg`).
+- 8.) Press Mod + L to logout.
+- 9.) Log back in if you have a display manager (SDDM or Light DM) running.
+
+### DARK WAYLAND
+
+- 1.) Clone this repository using Git down to your own system.
+- 2.) Move the `dark-wayland` folder to your `$HOME` folder. 
+- 3.) Rename the `dark-wayland` folder to `.config`.
+- 4.) Move the `wallpapers` folder from this repository's `shared/wallpapers` folder to the your `$HOME` folder.
+- 6.) Make sure that the script called `autostart` in the `hypr` folder is executable.
+- 7.) Edit the file called `hyprpaper.conf` in the `hypr` folder to include the path to one of the wallpapers provided (`$HOME/wallpapers/1.png`).
 - 8.) Press Mod + L to logout.
 - 9.) Log back in if you have a display manager (SDDM or Light DM) running.
 
