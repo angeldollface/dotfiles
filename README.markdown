@@ -35,6 +35,9 @@ This repository contains the dotfiles for the configurations for different softw
 ### KAWAII BLISS
 
 - Picom
+- Alacritty
+- Rofi
+- Flameshot
 - BSPWM
 - SXHKD
 - Nitrogen
@@ -44,6 +47,8 @@ This repository contains the dotfiles for the configurations for different softw
 ### WHITE WAYLAND
 
 - Hyprland (Git)
+- Alacritty
+- Rofi
 - Waybar
 - Hyprpaper
 - Git
@@ -51,6 +56,8 @@ This repository contains the dotfiles for the configurations for different softw
 ### DARK WAYLAND
 
 - Hyprland (Git)
+- Alacritty
+- Rofi
 - Waybar
 - Hyprpaper
 - Git
@@ -58,6 +65,9 @@ This repository contains the dotfiles for the configurations for different softw
 ### RED DEMON
 
 - Picom
+- Alacritty
+- Flameshot
+- Rofi
 - BSPWM
 - SXHKD
 - Nitrogen
@@ -159,4 +169,4 @@ To "install" any of these setups on your Linux installation, install the softwar
 ## NOTE :scroll:
 
 - *Dotfiles :nail_care: :ribbon: :heart:* by Alexander Abraham :black_heart: a.k.a. *"Angel Dollface" :dolls: :ribbon:*
-- Licensed under the MIT license.
+- Licensed under the GNU GPL v3.
