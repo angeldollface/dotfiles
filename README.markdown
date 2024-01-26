@@ -48,6 +48,7 @@ This repository contains the dotfiles for the configurations for different softw
 
 - Hyprland (Git)
 - Alacritty
+- Grimshot
 - Rofi
 - Waybar
 - Hyprpaper
@@ -56,6 +57,7 @@ This repository contains the dotfiles for the configurations for different softw
 ### DARK WAYLAND
 
 - Hyprland (Git)
+- Grimshot
 - Alacritty
 - Rofi
 - Waybar
