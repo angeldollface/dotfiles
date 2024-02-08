@@ -1,0 +1,6 @@
+configuration {
+ modi: "window,drun";
+ font: "FiraCode-Regular 10";
+ combi-modi: "window,drun";
+}
+@theme "colors.rasi"

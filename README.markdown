@@ -6,6 +6,12 @@ This repository contains the dotfiles for the configurations for different softw
 
 ## SCREENSHOTS :camera:
 
+### DOLLY'S DELIGHTS
+
+<p align="center">
+ <img src="screenshots/dollys-delights.jpg"/>
+</p>
+
 ### KAWAII BLISS
 
 <p align="center">
@@ -31,6 +37,18 @@ This repository contains the dotfiles for the configurations for different softw
 </p>
 
 ## THE SOFTWARE :package:
+
+### DOLLY'S DELIGHTS
+
+- Picom
+- Alacritty
+- Rofi
+- Flameshot
+- BSPWM
+- SXHKD
+- Nitrogen
+- Polybar
+- Git
 
 ### KAWAII BLISS
 
@@ -78,6 +96,17 @@ This repository contains the dotfiles for the configurations for different softw
 
 ## KEY COMBINATIONS :keyboard:
 
+### DOLLY'S DELIGHTS
+
+- Mod + Space: Open Rofi.
+- Mod + P: Open Rofi in shell mode for system reboot or shutdown.
+- Mod + O: Take a screenshot.
+- Mod + Shift + W: Quit an application.
+- Mod + Enter: Open Alacritty.
+- Mod + L: Logout.
+- Mod + H: Hibernate.
+- Mod + 1-9: Switch workspace.
+
 ### KAWAII BLISS
 
 - Mod + Space: Open Rofi.
@@ -122,9 +151,25 @@ This repository contains the dotfiles for the configurations for different softw
 - Mod + H: Hibernate.
 - Mod + 1-9: Switch workspace.
 
+## SHARED CONFIGS
+
+- Move the `.vimrc` file from `shared/configs` into your `$HOME` directory.
+
 ## INSTALLATION :inbox_tray:
 
 To "install" any of these setups on your Linux installation, install the software list for the setup of your choice with the package manager(s) your system provides. Only after this has been completed, can you follow the steps provided below for the setup you would like.
+
+### DOLLY'S DELIGHTS
+
+- 1.) Clone this repository using Git down to your own system.
+- 2.) Move the `dollys-delights` folder to your `$HOME` folder.
+- 3.) Rename the `dollys-delights` folder to `.config`.
+- 4.) Move the `wallpapers` folder from this repository's `shared/wallpapers` folder to the your `$HOME` folder.
+- 5.) Make sure all files in the `.config ` folder ending in `.sh` are executable. (This is most important!)
+- 6.) Move the file `.xprofile` from the `dollys-delights` folder to your `$HOME` directory.
+- 7.) Start Nitrogen and add the `$HOME/wallpapers` directory as a source and set the wallpaper (`$HOME/wallpapers/9.jpg`).
+- 8.) Make sure to set the image-rendering mode to "Zoomed" in Nitrogen when setting the wallpaper.
+- 9.) Move the font file, `Benegraphic.ttf`, from `dollys-delights/font` to `/usr/local/share/fonts`. Create the `fonts` directory inside `/usr/local/share` if it does not exist. 
 
 ### KAWAII BLISS
 
