@@ -6,6 +6,15 @@ This repository contains the dotfiles for the configurations for different softw
 
 ## SCREENSHOTS :camera:
 
+### BLUE DEMON
+
+<p align="center">
+ <img src="screenshots/blue-demon-blank.png"/>
+</p>
+<p align="center">
+ <img src="screenshots/blue-demon-terminal.png"/>
+</p>
+
 ### DOLLY'S DELIGHTS
 
 <p align="center">
@@ -38,6 +47,22 @@ This repository contains the dotfiles for the configurations for different softw
 
 ## THE SOFTWARE :package:
 
+### BLUE DEMON
+
+- Picom
+- Alacritty
+- Rofi
+- Flameshot
+- BSPWM
+- SXHKD
+- Nitrogen
+- Polybar
+- Git
+- Starship
+- SDDM
+- Xorg
+- UwUfetch
+
 ### DOLLY'S DELIGHTS
 
 - Picom
@@ -49,6 +74,9 @@ This repository contains the dotfiles for the configurations for different softw
 - Nitrogen
 - Polybar
 - Git
+- SDDM
+- Xorg
+- Neofetch
 
 ### KAWAII BLISS
 
@@ -61,6 +89,9 @@ This repository contains the dotfiles for the configurations for different softw
 - Nitrogen
 - Polybar
 - Git
+- SDDM
+- Xorg
+- Neofetch
 
 ### WHITE WAYLAND
 
@@ -71,6 +102,9 @@ This repository contains the dotfiles for the configurations for different softw
 - Waybar
 - Hyprpaper
 - Git
+- Xorg
+- Light DM
+- Neofetch
 
 ### DARK WAYLAND
 
@@ -81,6 +115,9 @@ This repository contains the dotfiles for the configurations for different softw
 - Waybar
 - Hyprpaper
 - Git
+- Xorg
+- Light DM
+- Neofetch
 
 ### RED DEMON
 
@@ -93,8 +130,22 @@ This repository contains the dotfiles for the configurations for different softw
 - Nitrogen
 - Polybar
 - Git
+- SDDM
+- Xorg
+- Neofetch
 
 ## KEY COMBINATIONS :keyboard:
+
+### BLUE DEMON
+
+- Mod + Space: Open Rofi.
+- Mod + P: Open Rofi in shell mode for system reboot or shutdown.
+- Mod + O: Take a screenshot.
+- Mod + Shift + W: Quit an application.
+- Mod + Enter: Open Alacritty.
+- Mod + L: Logout.
+- Mod + H: Hibernate.
+- Mod + 1-9: Switch workspace.
 
 ### DOLLY'S DELIGHTS
 
@@ -158,6 +209,25 @@ This repository contains the dotfiles for the configurations for different softw
 ## INSTALLATION :inbox_tray:
 
 To "install" any of these setups on your Linux installation, install the software list for the setup of your choice with the package manager(s) your system provides. Only after this has been completed, can you follow the steps provided below for the setup you would like.
+
+### BLUE DEMON
+
+- 1.) Clone this repository using Git down to your own system.
+- 2.) Move the `blue-demon` folder to your `$HOME` folder.
+- 3.) Rename the `blue-demon` folder to `.config`.
+- 4.) Move the `wallpapers` folder from this repository's `shared/wallpapers` folder to the your `$HOME` folder.
+- 5.) Make sure all files in the `.config ` folder ending in `.sh` are executable. (This is most important!)
+- 6.) Move the file `.xprofile` from the `blue-demon` folder to your `$HOME` directory.
+- 7.) Start Nitrogen and add the `$HOME/wallpapers` directory as a source and set the wallpaper (`$HOME/wallpapers/10.png`).
+- 8.) Make sure to set the image-rendering mode to "Centered" in Nitrogen when setting the wallpaper.
+- 9.) Move the font file, `MC.ttf`, from `blue-demon/fonts` to `/usr/local/share/fonts`. Create the `fonts` directory inside `/usr/local/share` if it does not exist.
+- 10.) Move the font file `FiraCode-Regular.ttf` from `blue-demon/fonts` to `/usr/local/share/fonts`. Create the `fonts` directory inside `/usr/local/share` if it does not exist.
+- 11.) To use my Starship prompt and UwUfetch add the following two lines to your `.bashrc`:
+
+```bash
+uwufetch
+eval "$(starship init bash)"
+```
 
 ### DOLLY'S DELIGHTS
 
