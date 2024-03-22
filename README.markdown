@@ -2,7 +2,7 @@
 
 ## ABOUT :books:
 
-This repository contains the dotfiles for the configurations for different software to emulate a heavily-modified minimal desktop environment on Arch Linux.
+Some months ago I got into the art of using window managers on Linux. Since I had basically started my Linux journey with Arch Linux, the most elite distribution of them all, I got tired of using KDE. For this reason, I decided to build my own desktop environment with a patchwork of window managers, compositors, hotkey daemons, and various other bits and bobs. Over time, I've done multiple "rices", the name for heavily customized desktops on Linux, and since I found getting started with "ricing" very hard in the beginning, I decided to make it easier for others and myself and keep the various "rices" I've made in a public GitHub repository. This repository is that public GitHub repository.
 
 ## SCREENSHOTS :camera:
 
@@ -215,7 +215,7 @@ To "install" any of these setups on your Linux installation, install the softwar
 - 1.) Clone this repository using Git down to your own system.
 - 2.) Move the `blue-demon` folder to your `$HOME` folder.
 - 3.) Rename the `blue-demon` folder to `.config`.
-- 4.) Move the `wallpapers` folder from this repository's `shared/wallpapers` folder to the your `$HOME` folder.
+- 4.) Move the `wallpapers` folder from this repository's `shared/wallpapers` folder to your `$HOME` folder.
 - 5.) Make sure all files in the `.config ` folder ending in `.sh` are executable. (This is most important!)
 - 6.) Move the file `.xprofile` from the `blue-demon` folder to your `$HOME` directory.
 - 7.) Start Nitrogen and add the `$HOME/wallpapers` directory as a source and set the wallpaper (`$HOME/wallpapers/10.png`).
@@ -234,7 +234,7 @@ eval "$(starship init bash)"
 - 1.) Clone this repository using Git down to your own system.
 - 2.) Move the `dollys-delights` folder to your `$HOME` folder.
 - 3.) Rename the `dollys-delights` folder to `.config`.
-- 4.) Move the `wallpapers` folder from this repository's `shared/wallpapers` folder to the your `$HOME` folder.
+- 4.) Move the `wallpapers` folder from this repository's `shared/wallpapers` folder to your `$HOME` folder.
 - 5.) Make sure all files in the `.config ` folder ending in `.sh` are executable. (This is most important!)
 - 6.) Move the file `.xprofile` from the `dollys-delights` folder to your `$HOME` directory.
 - 7.) Start Nitrogen and add the `$HOME/wallpapers` directory as a source and set the wallpaper (`$HOME/wallpapers/9.jpg`).
@@ -278,7 +278,7 @@ eval "$(starship init bash)"
 - 1.) Clone this repository using Git down to your own system.
 - 2.) Move the `red-demon` folder to your `$HOME` folder.
 - 3.) Rename the `red-demon` folder to `.config`.
-- 4.) Move the `wallpapers` folder from this repository's `shared/wallpapers` folder to the your `$HOME` folder.
+- 4.) Move the `wallpapers` folder from this repository's `shared/wallpapers` folder to your `$HOME` folder.
 - 5.) Make sure all files in the `.config ` folder ending in `.sh` are executable. (This is most important!)
 - 6.) Move the file `.xprofile` from the `red-demon` folder to your `$HOME` directory.
 - 7.) Start Nitrogen and add the `$HOME/wallpapers` directory as a source and set the wallpaper (`$HOME/wallpapers/6.jpg`).
