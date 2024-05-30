@@ -6,6 +6,12 @@ Some months ago I got into the art of using window managers on Linux. Since I ha
 
 ## SCREENSHOTS :camera:
 
+## NEON DRAGON
+
+<p align="center">
+ <img src="screenshots/neon-dragon.png"/>
+</p>
+
 ### BLUE DEMON
 
 <p align="center">
