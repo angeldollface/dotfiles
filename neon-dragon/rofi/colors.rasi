@@ -1,0 +1,13 @@
+* {
+    bg0:    #000000;
+    bg1:    #000000;
+    bg2:    #222222;
+    bg3:    #222222F2;
+    fg0:    #EA1573;
+    fg1:    #EA1573;
+    fg2:    #EA1573;
+    fg3:    #EA1573;
+    defaultFont: "Ostrich Sans Bold 15";
+}
+
+@import "rounded-common.rasi"

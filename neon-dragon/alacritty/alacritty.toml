@@ -1,0 +1,11 @@
+[window]
+opacity = 0.75
+padding = { x = 10, y = 10 }
+
+[colors.primary]
+background = "#000000"
+foreground = "#EA1573"
+
+[font]
+normal = { family = "Fira Code", style = "Regular" }
+size = 13
