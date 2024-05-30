@@ -245,10 +245,6 @@ These packages can be installed with `pacman`, Arch's package manager. If specif
 - Mod + H: Hibernate.
 - Mod + 1-9: Switch workspace.
 
-## SHARED CONFIGS
-
-- Move the `.vimrc` file from `shared/configs` into your `$HOME` directory.
-
 ## INSTALLATION :inbox_tray:
 
 To "install" any of these setups on your Linux installation, install the software list for the setup of your choice with the package manager(s) your system provides. Only after this has been completed, can you follow the steps provided below for the setup you would like.
