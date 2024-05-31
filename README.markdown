@@ -78,6 +78,8 @@ These packages can be installed with `pacman`, Arch's package manager. If specif
 - `sudo`
 - `thunar`
 - `xorg`
+- `plymouth`
+- `plymouth-theme-arch-glow` (AUR)
 
 ### RICE-SPECIFIC PACKAGES
 
