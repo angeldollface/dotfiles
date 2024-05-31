@@ -63,7 +63,7 @@ These packages can be installed with `pacman`, Arch's package manager. If specif
 
 If you are just installing Arch Linux, these are the packages you will need as a bare minimum.
 
-- Sound Tools:`alsa-utils`
+- Sound Tools: `alsa-utils`
 - Arch Linux Base Packages: `base`
 - Arch Linux Basic Build Tools: `base-devel`
 - Boot Manbager for UEFI Systems: `efibootmgr`
@@ -84,6 +84,7 @@ If you are just installing Arch Linux, these are the packages you will need as a
 - Display Server: `xorg`
 - Boot Splash Screen Tool: `plymouth`
 - A theme for Plymouth: `plymouth-theme-arch-glow` (AUR)
+- Emoji support: `noto-fonts-emoji`
 
 ### RICE-SPECIFIC PACKAGES
 
