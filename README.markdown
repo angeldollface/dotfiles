@@ -12,6 +12,10 @@ Some months ago I got into the art of using window managers on Linux. Since I ha
  <img src="screenshots/neon-dragon.png"/>
 </p>
 
+<p align="center">
+ <img src="screenshots/neovim-neon-dragon.png">
+</p>
+
 ### BLUE DEMON
 
 <p align="center">
@@ -57,116 +61,116 @@ These packages can be installed with `pacman`, Arch's package manager. If specif
 
 ### GENERAL PACKAGES
 
-- `alsa-utils`
-- `base`
-- `base-devel`
-- `efibootmgr`
-- `firefox`
-- `flameshot`
-- `git`
-- `grub`
-- `gvfs`
-- `lightdm`
-- `lightdm-gtk-greeter`
-- `linux-zen`
-- `linux-firmware`
-- `neovim`
-- `networkmanager`
-- `nitrogen`
-- `paru`
-- `pulseaudio`
-- `sudo`
-- `thunar`
-- `xorg`
-- `plymouth`
-- `plymouth-theme-arch-glow` (AUR)
+If you are just installing Arch Linux, these are the packages you will need as a bare minimum.
+
+- Sound Tools:`alsa-utils`
+- Arch Linux Base Packages: `base`
+- Arch Linux Basic Build Tools: `base-devel`
+- Boot Manbager for UEFI Systems: `efibootmgr`
+- Web Browser: `firefox`
+- Git: `git`
+- The GRUB Bootloader: `grub`
+- File System Extensions: `gvfs`
+- A Light Display Manager: `lightdm`
+- A Greeter for Light DM: `lightdm-gtk-greeter`
+- The "Zen" variant of the Linux Kernel: `linux-zen`
+- Linux Kernel Firmware: `linux-firmware`
+- Text Editor: `neovim`
+- Daemon for managing networking: `networkmanager`
+- An AUR Helper: `paru`
+- The Sound Server: `pulseaudio`
+- Sudo Tool: `sudo`
+- File Manager: `thunar`
+- Display Server: `xorg`
+- Boot Splash Screen Tool: `plymouth`
+- A theme for Plymouth: `plymouth-theme-arch-glow` (AUR)
 
 ### RICE-SPECIFIC PACKAGES
 
+These are the packages that assume you have either vanilla X11 or X11 with Wayland setup on your system and you only have a TTY.
+
 #### NEON DRAGON
 
-- `picom`
-- `rofi`
-- `alacritty`
-- `flameshot`
-- `bspwm`
-- `sxhkd`
-- `nitrogen`
-- `polybar`
-- `starship`
-- `uwufetch`
-- `papirus-icon-theme`
+- Compositor: `picom`
+- App Launcher: `rofi`
+- Terminal: `alacritty`
+- Screenshot Tool: `flameshot`
+- Window Manager: `bspwm`
+- Hotkey Daemon: `sxhkd`
+- Wallpaper Tool: `nitrogen`
+- System Panel: `polybar`
+- Fetch Script: `uwufetch`
+- Icon Theme: `papirus-icon-theme`
 
 #### BLUE DEMON
 
-- `picom`
-- `rofi`
-- `alacritty`
-- `flameshot`
-- `bspwm`
-- `sxhkd`
-- `nitrogen`
-- `polybar`
-- `starship`
-- `uwufetch`
-- `papirus-icon-theme`
+- Compositor: `picom`
+- App Launcher: `rofi`
+- Terminal: `alacritty`
+- Screenshot Tool: `flameshot`
+- Window Manager: `bspwm`
+- Hotkey Daemon: `sxhkd`
+- Wallpaper Tool: `nitrogen`
+- System Panel: `polybar`
+- Shell Prompt: `starship`
+- Fetch Script: `uwufetch`
+- Icon Theme: `papirus-icon-theme`
 
 #### DOLLY'S DELIGHTS
 
-- `picom`
-- `alacritty`
-- `rofi`
-- `flameshot`
-- `bspwm`
-- `sxhkd`
-- `nitrogen`
-- `polybar`
-- `git`
-- `neofetch`
+- Compositor: `picom`
+- Terminal: `alacritty`
+- App Launcher: `rofi`
+- Screenshot Tool: `flameshot`
+- Window Manager: `bspwm`
+- Hotkey Daemon: `sxhkd`
+- Wallpaper Tool: `nitrogen`
+- System Panel: `polybar`
+- Fetch Script: `neofetch`
 
 #### KAWAII BLISS
 
-- `picom`
-- `alacritty`
-- `rofi`
-- `flameshot`
-- `bspwm`
-- `sxhkd`
-- `nitrogen`
-- `polybar`
-- `neofetch`
+- Compositor: `picom`
+- Terminal: `alacritty`
+- App Launcher: `rofi`
+- Screenshot Tool: `flameshot`
+- Window Manager: `bspwm`
+- Hotkey Daemon: `sxhkd`
+- Wallpaper Tool: `nitrogen`
+- System Panel: `polybar`
+- Fetch Script: `neofetch`
 
 #### WHITE WAYLAND
 
-- `hyprland-git` (AUR)
-- `grimshot`
-- `alacritty`
-- `rofi`
-- `waybar`
-- `hyprpaper`
-- `neofetch`
+- Compositor & Window Manager: `hyprland-git` (AUR)
+- Screenshot Tool: `grimshot`
+- Terminal: `alacritty`
+- App Launcher: `rofi`
+- System Panel: `waybar`
+- Wallpaper Tool: `hyprpaper`
+- Fetch Script: `neofetch`
 
 #### DARK WAYLAND
 
-- `hyprland-git` (AUR)
-- `grimshot`
-- `alacritty`
-- `rofi`
-- `waybar`
-- `hyprpaper`
-- `neofetch`
+- Compositor & Window Manager: `hyprland-git` (AUR)
+- Screenshot Tool: `grimshot`
+- Terminal: `alacritty`
+- App Launcher: `rofi`
+- System Panel: `waybar`
+- Wallpaper Tool: `hyprpaper`
+- Fetch Script: `neofetch`
 
 #### RED DEMON
 
-- `picom`
-- `alacritty`
-- `rofi`
-- `flameshot`
-- `bspwm`
-- `sxhkd`
-- `nitrogen`
-- `polybar`
-- `neofetch`
+- Compositor: `picom`
+- Terminal: `alacritty`
+- App Launcher: `rofi`
+- Screenshot Tool: `flameshot`
+- Window Manager: `bspwm`
+- Hotkey Daemon: `sxhkd`
+- Wallpaper Tool: `nitrogen`
+- System Panel: `polybar`
+- Fetch Script: `neofetch`
 
 ## KEY COMBINATIONS :keyboard:
 
@@ -265,6 +269,7 @@ To "install" any of these setups on your Linux installation, install the softwar
 - 10.) Move the font file `FiraCode-Regular.ttf` from `.config/fonts` to `/usr/local/share/fonts`. Create the `fonts` directory inside `/usr/local/share` if it does not exist.
 - 11.) This rice also includes my Neovim configuration.
 - 12.) The included wallpaper was made by me. Any use for commerical purposes is strictly prohibited. If you violate this, I will sue you.
+- 13.) Start your display manager or the X11 server.
 
 ### BLUE DEMON
 
@@ -284,6 +289,7 @@ To "install" any of these setups on your Linux installation, install the softwar
 uwufetch
 eval "$(starship init bash)"
 ```
+- 12.) Start your display manager or the X11 server.
 
 ### DOLLY'S DELIGHTS
 
@@ -295,7 +301,8 @@ eval "$(starship init bash)"
 - 6.) Move the file `.xprofile` from the `dollys-delights` folder to your `$HOME` directory.
 - 7.) Start Nitrogen and add the `$HOME/wallpapers` directory as a source and set the wallpaper (`$HOME/wallpapers/9.jpg`).
 - 8.) Make sure to set the image-rendering mode to "Zoomed" in Nitrogen when setting the wallpaper.
-- 9.) Move the font file, `Benegraphic.ttf`, from `.config/font` to `/usr/local/share/fonts`. Create the `fonts` directory inside `/usr/local/share` if it does not exist. 
+- 9.) Move the font file, `Benegraphic.ttf`, from `.config/font` to `/usr/local/share/fonts`. Create the `fonts` directory inside `/usr/local/share` if it does not exist.
+- 10.) Start your display manager or the X11 server.
 
 ### KAWAII BLISS
 
@@ -306,6 +313,7 @@ eval "$(starship init bash)"
 - 5.) Make sure all files in the `.config ` folder ending in `.sh` are executable. (This is most important!)
 - 6.) Move the file `.xprofile` from the `kawaii-bliss` folder to your `$HOME` directory.
 - 7.) Start Nitrogen and add the `$HOME/wallpapers` directory as a source and set the wallpaper (`$HOME/wallpapers/4.jpg`).
+- 8.) Start your display manager or the X11 server.
 
 ### WHITE WAYLAND
 
@@ -317,6 +325,7 @@ eval "$(starship init bash)"
 - 7.) Edit the file called `hyprpaper.conf` in the `hypr` folder to include the path to one of the wallpapers provided (`$HOME/wallpapers/5.jpg`).
 - 8.) Press Mod + L to logout.
 - 9.) Log back in if you have a display manager (SDDM or Light DM) running.
+- 10.) Start your display manager or the X11 server.
 
 ### DARK WAYLAND
 
@@ -328,6 +337,7 @@ eval "$(starship init bash)"
 - 7.) Edit the file called `hyprpaper.conf` in the `hypr` folder to include the path to one of the wallpapers provided (`$HOME/wallpapers/1.png`).
 - 8.) Press Mod + L to logout.
 - 9.) Log back in if you have a display manager (SDDM or Light DM) running.
+- 10.) Sart your display manager or the X11 server.
 
 ### RED DEMON
 
@@ -338,6 +348,7 @@ eval "$(starship init bash)"
 - 5.) Make sure all files in the `.config ` folder ending in `.sh` are executable. (This is most important!)
 - 6.) Move the file `.xprofile` from the `red-demon` folder to your `$HOME` directory.
 - 7.) Start Nitrogen and add the `$HOME/wallpapers` directory as a source and set the wallpaper (`$HOME/wallpapers/6.jpg`).
+- 8.) Start your display manager or the X11 server.
 
 ## NOTE :scroll:
 
