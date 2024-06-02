@@ -85,6 +85,9 @@ If you are just installing Arch Linux, these are the packages you will need as a
 - Boot Splash Screen Tool: `plymouth`
 - A theme for Plymouth: `plymouth-theme-arch-glow` (AUR)
 - Emoji support: `noto-fonts-emoji`
+- The Rust installer: `rustup`
+
+
 
 ### RICE-SPECIFIC PACKAGES
 
