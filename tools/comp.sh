@@ -1,5 +1,5 @@
 if [ $1 == $2 ]; then
-    echo "Passed."
+    echo "true"
 else
-    echo "Failed."
+    echo "false"
 fi
